@@ -1,0 +1,56 @@
+body{
+    background-color: #1d2d44;
+    color:#f0ebd8;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+#selflogo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    justify-content: flex-start;
+    
+}
+
+
+
+header nav a{
+    margin:0 10px;
+    color:#748cab;
+    text-decoration: none;
+
+}
+
+.headernav{
+    font-size:2rem;
+}
+
+.headernav:hover{
+    color:aqua;
+    box-shadow: 10px 5px 5px aqua;
+    transition: all ease-in 0.2s;
+}
+
+section{
+    background-color:#748cab;
+    margin:0 auto;
+    width:80%;
+}
+
+.modeitalic{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+
+
