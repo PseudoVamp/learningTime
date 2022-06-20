@@ -34,9 +34,9 @@ header nav a{
 }
 
 .headernav:hover{
-    color:aqua;
-    box-shadow: 10px 5px 5px aqua;
-    transition: all ease-in 0.2s;
+    color:grey;
+    box-shadow: 5px 5px 5px grey;
+    transition: all ease-in-out 0.2s;
 }
 
 section{
@@ -54,3 +54,40 @@ section{
 
 
 
+@media (max-width: 500px){
+
+    nav,span{
+        font-size:.8em;
+    }
+
+    section{
+        width:100%;
+    }
+    div.col{
+        overflow-x: scroll;
+        width: max-content;
+        display:inline-block;
+        font-size: .8rem;
+    }
+
+    div.col-md-3.modeitalic{
+        text-align:center;
+    }
+}
+
+@media (max-width: 375px){
+
+    h1{
+        font-size:1em;
+    }
+    nav,span{
+        font-size:.6em;
+    }
+
+}
+
+@media (max-width: 280px){
+    nav,span{
+        font-size:.6em;
+    }
+}
