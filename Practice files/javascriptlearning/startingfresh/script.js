@@ -56,9 +56,14 @@ if (age < 5) {
 } else if (age > 65) {
     console.log("You are a senior, you get in free")
 }
+//better way is to doo 
+// if (age <5 || age >=65)
+// if age is less than five ORRRRR || ORRRRR greater than 65
 
-
-
+// checks if age is greater than ten ANDDDD less than 65
+// else if (age >= 10 && age <65){
+//     console.log("$20");
+// }
 
 //password must be 6+ characters
 //password cannot include space
